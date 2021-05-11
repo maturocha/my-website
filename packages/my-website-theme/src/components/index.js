@@ -3,6 +3,7 @@ import Switch from "@frontity/components/switch";
 import globalStyles from "./styles/global-styles";
 import Title from "./title";
 import Header from "./header";
+import Footer from "./footer";
 import Loading from "./loading";
 import Home from "./home"
 import PageError from "./page-error";
@@ -37,6 +38,7 @@ const Theme = ({ state }) => {
             <PageError when={data.isError} />
         </Switch>
       </Main>
+      <Footer />
     </>
   );
 };
