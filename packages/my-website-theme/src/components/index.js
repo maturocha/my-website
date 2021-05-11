@@ -1,7 +1,11 @@
 import { connect, Global, Head, styled } from "frontity";
+import Switch from "@frontity/components/switch";
 import globalStyles from "./styles/global-styles";
 import Title from "./title";
 import Header from "./header";
+import Loading from "./loading";
+import Home from "./home"
+import PageError from "./page-error";
 import tw from "tailwind.macro";
 
 /**
@@ -27,7 +31,11 @@ const Theme = ({ state }) => {
 
       <Header />
       <Main>
-        <h1>Hi! I'm matur</h1>
+        <Switch>
+            <Loading when={data.isFetching} />
+            <Home when={data.isHome }/>
+            <PageError when={data.isError} />
+        </Switch>
       </Main>
     </>
   );
