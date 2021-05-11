@@ -1,6 +1,7 @@
 import { connect, Global, Head, styled } from "frontity";
 import globalStyles from "./styles/global-styles";
 import Title from "./title";
+import Header from "./header";
 import tw from "tailwind.macro";
 
 /**
@@ -23,6 +24,8 @@ const Theme = ({ state }) => {
        {/* Add some global styles for the whole site, like body or a's. 
       Not classes here because we use CSS-in-JS. Only global HTML tags. */}
       <Global styles={globalStyles} />
+
+      <Header />
       <Main>
         <h1>Hi! I'm matur</h1>
       </Main>
