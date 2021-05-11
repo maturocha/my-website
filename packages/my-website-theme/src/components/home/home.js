@@ -54,9 +54,9 @@ const Home = ({ state, actions, libraries }) => {
 export default connect(Home);
 
 const Container = styled.div`
-  ${tw`mx-auto max-w-screen-lg p-8`}
+  ${tw`mx-auto max-w-screen-lg p-6`}
 `;
 
 const Section = styled.section`
-  ${tw`mx-auto px-6 md:px-8 lg:px-4 xl:px-0 relative`}
+  ${tw`mx-auto px-2 md:px-8 lg:px-4 xl:px-0 relative`}
 `;
