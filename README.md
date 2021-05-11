@@ -1,6 +1,6 @@
 # Mati Rocha Website
 
-This project was bootstrapped with [Frontity](https://frontity.org/).
+This project is running in [maturocha.com.ar](http://maturocha.com.ar/).
 
 #### Table of Contents
 
