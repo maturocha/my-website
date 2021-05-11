@@ -1,4 +1,4 @@
-# my-website
+# Mati Rocha Website
 
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
