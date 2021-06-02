@@ -26,6 +26,14 @@ const settings = {
       }
     },
     {
+      "name": "@frontity/google-analytics",
+      "state": {
+        "googleAnalytics": {
+          "trackingId": "G-1SQ1T6H9K6",
+        },
+      },
+    },
+    {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
