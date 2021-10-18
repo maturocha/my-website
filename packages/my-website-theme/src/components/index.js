@@ -6,6 +6,7 @@ import Header from "./header";
 import Footer from "./footer";
 import Loading from "./loading";
 import Home from "./home"
+import Page from "./page"
 import PageError from "./page-error";
 import tw from "tailwind.macro";
 
@@ -35,6 +36,7 @@ const Theme = ({ state }) => {
         <Switch>
             <Loading when={data.isFetching} />
             <Home when={data.isHome }/>
+            <Page when={data.isPage }/>
             <PageError when={data.isError} />
         </Switch>
       </Main>
